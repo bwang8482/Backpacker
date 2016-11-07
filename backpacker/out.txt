@@ -1,0 +1,532 @@
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+sh: ./test.py: Permission denied
+sh: hello.py: command not found
+sh: hello.py: command not found
+sh: ./test.py: Permission denied
+sh: ./test.py: Permission denied
+sh: test.py: command not found
+sh: test.py: command not found
+sh: test.py: command not found
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+sh: /user/bin/test.py: No such file or directory
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+  File "./cgi-bin/hello.py", line 5
+    import bs4 from BeautifulSoup
+                  ^
+SyntaxError: invalid syntax
+  File "./cgi-bin/hello.py", line 5
+    import bs4 from BeautifulSoup
+                  ^
+SyntaxError: invalid syntax
+  File "./cgi-bin/hello.py", line 5
+    import bs4 from BeautifulSoup
+                  ^
+SyntaxError: invalid syntax
+  File "./cgi-bin/hello.py", line 5
+    import bs4 from BeautifulSoup
+                  ^
+SyntaxError: invalid syntax
+  File "./cgi-bin/hello.py", line 5
+    import bs4 from BeautifulSoup
+                  ^
+SyntaxError: invalid syntax
+  File "./cgi-bin/hello.py", line 5
+    from HTMLParser import HTMLParser
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 5
+    from HTMLParser import HTMLParser
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 5
+    from HTMLParser import HTMLParser
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 7
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 7
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 7
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 11, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 11, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 11, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 11, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 11, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+  File "./cgi-bin/hello.py", line 8
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 8
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 8
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+  File "./cgi-bin/hello.py", line 8
+    from bs4 import BeautifulSoup
+       ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 9, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 9, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 6, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 6, in <module>
+    from urllib.request import urlopen
+ImportError: No module named request
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+  File "./cgi-bin/hello.py", line 13
+    html = urlopen("http://www.crummy.com/software/BeautifulSoup/bs3/download/2.x/documentation.html") 
+                                                                                                      ^
+IndentationError: unindent does not match any outer indentation level
+  File "./cgi-bin/hello.py", line 13
+    html = urlopen("http://www.crummy.com/software/BeautifulSoup/bs3/download/2.x/documentation.html") 
+                                                                                                      ^
+IndentationError: unindent does not match any outer indentation level
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 16, in <module>
+    for image in images:
+NameError: name 'images' is not defined
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 16, in <module>
+    for image in images:
+NameError: name 'images' is not defined
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 48, in <module>
+    print addr
+IOError: [Errno 32] Broken pipe
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+Traceback (most recent call last):
+  File "./cgi-bin/hello.py", line 48, in <module>
+    print addr
+IOError: [Errno 32] Broken pipe
+/home/backpacker/public_html/cgi-bin/bs4/__init__.py:166: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+To get rid of this warning, change this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+  markup_type=markup_type))
+close failed in file object destructor:
+Error in sys.excepthook:
+
+Original exception was:
